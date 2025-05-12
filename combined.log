@@ -1,0 +1,588 @@
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"code":"EAUTH","command":"API","level":"error","message":"Email sending failed: Missing credentials for \"PLAIN\"","stack":"Error: Missing credentials for \"PLAIN\"\n    at SMTPConnection._formatError (C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection.login (C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:454:38)\n    at C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js:272:32\n    at SMTPConnection.<anonymous> (C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:215:17)\n    at Object.onceWrapper (node:events:632:28)\n    at SMTPConnection.emit (node:events:518:28)\n    at SMTPConnection._actionEHLO (C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1371:14)\n    at SMTPConnection._processResponse (C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\Admin\\OneDrive\\Desktop\\Baby-Photo-Contest\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Cast to ObjectId failed for value \"baby3\" (type string) at path \"_id\" for model \"Baby\""}
+{"level":"info","message":"Vote recorded for baby: 6808a884f4bdf9848d7ec284 by voter: user"}
+{"level":"info","message":"Vote recorded for baby: 6808a884f4bdf9848d7ec284 by voter: user"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Server error user@gmail.com: User is not defined"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Server error user@gmail.com: User is not defined"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"User verified and registered: user@gmail.com"}
+{"level":"info","message":"Login successful for user: user@gmail.com"}
+{"level":"warn","message":"Unauthorized access attempt: No token provided"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby is not defined"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: 6808a884f4bdf9848d7ec284 by voter: user"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'equals')"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'equals')"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'equals')"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'equals')"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"voterId is not defined"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Baby validation failed: voters.0.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\", voters.1.voterId: Cast to ObjectId failed for value \"user\" (type string) at path \"voterId\" because of \"BSONError\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: 6809e8eff425f489aeaee819 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: 6809e8eff425f489aeaee819 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Server error user@gmail.com: E11000 duplicate key error collection: Baby-Contest.voters index: email_1 dup key: { email: \"user@gmail.com\" }"}
+{"level":"info","message":"User verified and registered: user1@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: 6809e8eff425f489aeaee819 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"New baby registered: siri123@gmail.com"}
+{"level":"info","message":"Login successful for user: user@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: 680b2d07a7dbcfb414b0e356 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Fetched 1 voters for babyCode: BABY-0001"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"warn","message":"Baby not found for code: BABY-0003"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Fetched 0 voters for babyCode: BABY-0002"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Fetched 1 voters for babyCode: BABY-0001"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"warn","message":"Vote attempt failed:Baby not found for codr undefined"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"warn","message":"Vote attempt failed:Baby not found for codr undefined"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Cast to ObjectId failed for value \"BABY-0002\" (type string) at path \"_id\" for model \"Baby\""}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"error","message":"Parameter \"filter\" to findOne() must be an object, got \"BABY-0002\" (type string)"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0001 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Unvote successful for baby: BABY-0001 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"warn","message":"Unvote attempt failed: Baby not found for code BABY-0008"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"New baby registered: siri123@gmail.com"}
+{"level":"info","message":"New baby registered: tejaswini@gmail.com"}
+{"level":"info","message":"New baby registered: swathi@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Server error user1@gmail.com: E11000 duplicate key error collection: Baby-Contest.voters index: email_1 dup key: { email: \"user1@gmail.com\" }"}
+{"level":"info","message":"User verified and registered: user1@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"User verified and registered: user2@gmail.com"}
+{"level":"info","message":"User verified and registered: user3@gmail.com"}
+{"level":"info","message":"User verified and registered: user4@gmail.com"}
+{"level":"info","message":"Login successful for user: user@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0001 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0004 by voter: 6809d7466fcf0f9dd5c0f73f"}
+{"level":"info","message":"Token verified for user: user@gmail.com"}
+{"level":"info","message":"Login successful for user: user1@gmail.com"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0004 by voter: 680b684e699a944198711e4f"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b684e699a944198711e4f"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 680b684e699a944198711e4f"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0001 by voter: 680b684e699a944198711e4f"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Login successful for user: user2@gmail.com"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0001 by voter: 680b698a1670fca49e8e4410"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b698a1670fca49e8e4410"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Fetched 3 voters for babyCode: BABY-0001"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Unvote successful for baby: BABY-0002 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Winner selected: Haritha Palavalli (BABY-0001)"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Fetched 3 voters for babyCode: BABY-0001"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Unvote successful for baby: BABY-0002 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Winner selected: Swathi P (BABY-0004)"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Fetched 3 voters for babyCode: BABY-0001"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Fetched 3 voters for babyCode: BABY-0002"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: swathii@gmail.com"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Fetched 3 voters for babyCode: BABY-0002"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"warn","message":"Vote attempt failed:Baby not found for codr BABY-0001"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Winner selected: Haritha P (BABY-0005)"}
+{"level":"error","message":"Error declaring winner: nodemailer is not defined"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0005 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Winner selected: Haritha P (BABY-0005)"}
+{"level":"error","message":"Error declaring winner: nodemailer is not defined"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"error","message":"Invalid or expired token: jwt expired"}
+{"level":"info","message":"New baby registered: palavalliharitha@gmail.com"}
+{"level":"info","message":"New baby registered: sudarsanarao054@gmail.com"}
+{"level":"info","message":"New baby registered: itsmesudheer45@gmail.com"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0005 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0006 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0007 by voter: 680b69ec1670fca49e8e4413"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"error","message":"Invalid or expired token: jwt must be provided"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Login successful for user: user2@gmail.com"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0007 by voter: 680b698a1670fca49e8e4410"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0005 by voter: 680b698a1670fca49e8e4410"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Login successful for user: user4@gmail.com"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0007 by voter: 680b69fa1670fca49e8e4416"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Winner selected: Haritha P (BABY-0005)"}
+{"level":"error","message":"Error declaring winner: nodemailer is not defined"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Winner selected: Sudarshana S (BABY-0006)"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Winner selected: Haritha P (BABY-0005)"}
+{"level":"info","message":"Winner email sent to palavalliharitha@gmail.com"}
+{"level":"info","message":"Token verified for user: user4@gmail.com"}
+{"level":"info","message":"Winner selected: Sudheer V (BABY-0007)"}
+{"level":"info","message":"Winner email sent to itsmesudheer45@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: vits.windows20731a0537@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: vits.windows20731a0537@gmail.com"}
+{"level":"info","message":"New baby registered: vits.windows20731a0537@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: vits.windows20731a0537@gmail.com"}
+{"level":"info","message":"Winner email sent to vits.windows20731a0537@gmail.com"}
