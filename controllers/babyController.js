@@ -1,10 +1,16 @@
+import { fileURLToPath } from 'url';
+import path from 'path';
 import Baby from '../models/Baby.js';
 import logger from '../utils/logger.js';
 import dotenv from 'dotenv';
 import nodemailer from 'nodemailer';
-import participantConfirmationTemplate from '../templates/participantConfirmationTemplate.js';
+import ejs from 'ejs';
 
 dotenv.config();
+
+// Define __dirname at top-level
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const generateBabyCode = async () => {
   const lastBaby = await Baby.findOne().sort({ _id: -1 });
@@ -21,68 +27,75 @@ const generateBabyCode = async () => {
 const registerBaby = async (req, res) => {
   const { firstName, lastName, age, email, mobile } = req.body;
 
-  // Check for existing email 
-  const emailExists = await Baby.findOne({ email });
-  if (emailExists) {
-    return res.status(400).send({ message: 'Email already exists' });
-  }
+  try {
+    // Check for duplicates
+    const emailExists = await Baby.findOne({ email });
+    if (emailExists) return res.status(400).send({ message: 'Email already exists' });
 
-  // Check for existing mobile 
-  const mobileExists = await Baby.findOne({ mobile });
-  if (mobileExists) {
-    return res.status(400).send({ message: 'Mobile already exists' });
-  }
+    const mobileExists = await Baby.findOne({ mobile });
+    if (mobileExists) return res.status(400).send({ message: 'Mobile already exists' });
 
-  if (!req.file) {
-    return res.status(400).send({ message: 'Baby image is required' });
-  }
+    if (!req.file) return res.status(400).send({ message: 'Baby image is required' });
 
-  // Save to DB only after email success
+    const imageUrl = `${process.env.BASE_URL}/uploads/${req.file.filename}`;
+    const babyCode = await generateBabyCode();
 
-  // Construct full image URL
-  const imageUrl = `${process.env.BASE_URL}/uploads/${req.file.filename}`;
-  const babyCode = await generateBabyCode();
-
-  const newBaby = new Baby({
-    firstName,
-    lastName,
-    age,
-    email,
-    mobile,
-    imageUrl, // Save full URL
-    babyCode,
-  });
-
-  await newBaby.save();
-  logger.info(`New baby registered: ${email}`);
-
-        
-  // Send Email
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS
-      }
+    const newBaby = new Baby({
+      firstName,
+      lastName,
+      age,
+      email,
+      mobile,
+      imageUrl,
+      babyCode,
     });
-  
+
+    await newBaby.save();
+    logger.info(`New baby registered: ${email}`);
+
+    // Render EJS email template
+    const templatePath = path.join(__dirname, '../templates/participationConfirmationTemplate.ejs');
+    let html;
+    try {
+      html = await ejs.renderFile(templatePath, { firstName: newBaby.firstName });
+    } catch (templateError) {
+      logger.error(`EJS rendering error: ${templateError.message}`);
+      return res.status(500).send({ message: 'Template rendering error' });
+    }
+
+    // Send confirmation email
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
+    });
+
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: newBaby.email,
       subject: 'Welcome to Week of the Baby Contest!',
-      html: participantConfirmationTemplate(newBaby.firstName)
-      };
-  
-      try {
-        await transporter.sendMail(mailOptions);
-        logger.info(`Winner email sent to ${newBaby.email}`);
-      } catch (emailErr) {
-        logger.error(`Failed to send participant email: ${emailErr.message}`);
-      }
-  res.status(201).send({ message: 'Registration successful and saved' });
+      html,
+    };
+
+    try {
+      await transporter.sendMail(mailOptions);
+      logger.info(`Participant confirmation email sent to ${newBaby.email}`);
+    } catch (emailError) {
+      logger.error(`Failed to send participant email: ${emailError.message}`);
+    }
+
+    // Final response
+    res.status(201).send({ message: 'Registration successful and saved' });
+
+  } catch (err) {
+    logger.error(`Registration error: ${err.message}`);
+    res.status(500).send({ message: 'Server error during registration' });
+  }
 };
 
 export {
   registerBaby,
-  generateBabyCode
+  generateBabyCode,
 };

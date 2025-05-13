@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week of the Baby - Confirmation</title>
+  <style>
+    body {
+      background: #eef2f3;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    .header {
+      background: linear-gradient(90deg, #1c92d2, #0072ff);
+      padding: 25px;
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .header img {
+      max-width: 150px;
+      display: block;
+    }
+    .content {
+      padding: 35px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .content strong {
+      color: #0072ff;
+    }
+    .footer {
+      background: #f4f7f9;
+      padding: 15px;
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+      border-top: 1px solid #e0e0e0;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <p>Week of the Baby</p>
+    </div>
+    <div class="content">
+      <p>Dear <%= firstName %>,</p>
+
+      <p>Thank you for entering the <strong>Week of the Baby</strong> contest! Your entry has been successfully uploaded.</p>
+
+      <p>🗓️ Voting is open from <strong>Monday to Saturday</strong>, and you can vote every <strong>30 minutes</strong>.</p>
+
+      <p>🎁 One lucky winner will receive a <strong>Rs 500 gift voucher</strong>.</p>
+
+      <p>If you have any questions or need assistance, please contact us at 
+        <a href="mailto:query@mycutebaby.in">query@mycutebaby.in</a>.
+      </p>
+
+      <p>Good luck!</p>
+
+      <p>Best regards,<br/>
+      Week of the Baby Team</p>
+    </div>
+    <div class="footer">
+      &copy; <%= new Date().getFullYear() %> Week of the Baby. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,16 +1,18 @@
+import { fileURLToPath } from "url";
+import path from 'path';
 import Baby from "../models/Baby.js";
 import dayjs from "dayjs";
 import logger from '../utils/logger.js';
 import dotEnv from 'dotenv';
 import nodemailer from 'nodemailer';
-import winnerEmailTemplate from "../templates/winnerEmailTemplate.js";
+import ejs from 'ejs';
 
 dotEnv.config();
 
 const getWeeklyParticipants = async (req, res) => {
     const startOfWeek = dayjs().startOf('week').add(1, 'day');
     const endOfWeek = dayjs().startOf('week').add(6, 'day').endOf('day');
-  
+
     try {
       const babies = await Baby.find({
         createdAt: { $gte: startOfWeek.toDate(), $lte: endOfWeek.toDate() }
@@ -51,6 +53,9 @@ const getWeeklyVoters = async (req, res) => {
     const startOfWeek = dayjs().startOf('week').add(1, 'day');
     const endOfWeek = dayjs().startOf('week').add(6, 'day').endOf('day');
   
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+
     try {
       const topBabies = await Baby.find({
         createdAt: { $gte: startOfWeek.toDate(), $lte: endOfWeek.toDate() }
@@ -66,6 +71,16 @@ const getWeeklyVoters = async (req, res) => {
   
       logger.info(`Winner selected: ${winner.firstName} ${winner.lastName} (${winner.babyCode})`);
   
+      // Render EJS Template
+      const templatePath = path.join(__dirname, '../templates/winnerEmailTemplate.ejs');
+      let html;
+      try {
+        html = await ejs.renderFile(templatePath, { firstName: winner.firstName });
+      } catch (templateError) {
+        logger.error(`EJS rendering error: ${templateError.message}`);
+        return res.status(500).send({ message: 'Template rendering error' });
+      }
+      
       // Send Email
       const transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -79,14 +94,14 @@ const getWeeklyVoters = async (req, res) => {
         from: process.env.EMAIL_USER,
         to: winner.email,
         subject: 'Congratulations! You are this week’s winner 🎉',
-        html: winnerEmailTemplate(winner.firstName)
+        html
       };
   
       try {
         await transporter.sendMail(mailOptions);
         logger.info(`Winner email sent to ${winner.email}`);
-      } catch (emailErr) {
-        logger.error(`Failed to send winner email: ${emailErr.message}`);
+      } catch (emailError) {
+        logger.error(`Failed to send winner email: ${emailError.message}`);
       }
   
       res.status(200).send({

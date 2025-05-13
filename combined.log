@@ -588,3 +588,73 @@
 {"level":"info","message":"Winner email sent to vits.windows20731a0537@gmail.com"}
 {"level":"info","message":"Server started and running at 3000"}
 {"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"code":"EBADNAME","hostname":"_mongodb._tcp.2321>","level":"error","syscall":"querySrv"}
+{"level":"info","message":"Server started and running at 3000"}
+{"code":"EBADNAME","hostname":"_mongodb._tcp.2321>","level":"error","syscall":"querySrv"}
+{"level":"info","message":"Server started and running at 3000"}
+{"code":8000,"codeName":"AtlasError","connectionGeneration":0,"errorLabelSet":{},"errorResponse":{"code":8000,"codeName":"AtlasError","errmsg":"bad auth : authentication failed","ok":0},"level":"error","ok":0}
+{"level":"info","message":"Server started and running at 3000"}
+{"code":8000,"codeName":"AtlasError","connectionGeneration":0,"errorLabelSet":{},"errorResponse":{"code":8000,"codeName":"AtlasError","errmsg":"bad auth : authentication failed","ok":0},"level":"error","ok":0}
+{"level":"info","message":"Server started and running at 3000"}
+{"code":8000,"codeName":"AtlasError","connectionGeneration":0,"errorLabelSet":{},"errorResponse":{"code":8000,"codeName":"AtlasError","errmsg":"bad auth : authentication failed","ok":0},"level":"error","ok":0}
+{"level":"info","message":"Server started and running at 3000"}
+{"code":8000,"codeName":"AtlasError","connectionGeneration":0,"errorLabelSet":{},"errorResponse":{"code":8000,"codeName":"AtlasError","errmsg":"bad auth : authentication failed","ok":0},"level":"error","ok":0}
+{"level":"info","message":"Server started and running at 3000"}
+{"code":8000,"codeName":"AtlasError","connectionGeneration":0,"errorLabelSet":{},"errorResponse":{"code":8000,"codeName":"AtlasError","errmsg":"bad auth : authentication failed","ok":0},"level":"error","ok":0}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: vits.windows20731a0537@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: vits.windows20731a0537@gmail.com"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"Server started and running at 3000"}
+{"level":"info","message":"MongoDB Connected and running Successfully"}
+{"level":"info","message":"New baby registered: vits.windows20731a0537@gmail.com"}
+{"level":"info","message":"Participant confirmation email sent to vits.windows20731a0537@gmail.com"}
+{"level":"warn","message":"Login failed. User not found: user4@gmail.com"}
+{"level":"info","message":"User verified and registered: user1@gmail.com"}
+{"level":"info","message":"User verified and registered: user2@gmail.com"}
+{"level":"info","message":"User verified and registered: user3@gmail.com"}
+{"level":"info","message":"Login successful for user: user1@gmail.com"}
+{"level":"info","message":"New baby registered: sudarsanarao054@gmail.com"}
+{"level":"info","message":"Participant confirmation email sent to sudarsanarao054@gmail.com"}
+{"level":"info","message":"New baby registered: itsmesudheer45@gmail.com"}
+{"level":"info","message":"Participant confirmation email sent to itsmesudheer45@gmail.com"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0001 by voter: 6822de6d9d2881c2da367a57"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 6822de6d9d2881c2da367a57"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 6822de6d9d2881c2da367a57"}
+{"level":"info","message":"Token verified for user: user1@gmail.com"}
+{"level":"info","message":"Login successful for user: user2@gmail.com"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0003 by voter: 6822de829d2881c2da367a5a"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Token verified for user: user2@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 6822de829d2881c2da367a5a"}
+{"level":"info","message":"Login successful for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Vote recorded for baby: BABY-0002 by voter: 6822de9c9d2881c2da367a5d"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Winner selected: Sudharshan S (BABY-0002)"}
+{"level":"info","message":"Winner email sent to sudarsanarao054@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Winner selected: Sudharshan S (BABY-0002)"}
+{"level":"info","message":"Winner email sent to sudarsanarao054@gmail.com"}
+{"level":"info","message":"Token verified for user: user3@gmail.com"}
+{"level":"info","message":"Winner selected: Harika V (BABY-0001)"}
+{"level":"info","message":"Winner email sent to vits.windows20731a0537@gmail.com"}
